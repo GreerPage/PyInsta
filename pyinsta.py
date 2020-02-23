@@ -3,7 +3,7 @@ from time import sleep
 
 class Instagram:
     def __init__(self, username, password):
-        self.driver = webdriver.Chrome('C:/Users/Greer/Documents/chromedriver_win32/chromedriver')
+        self.driver = webdriver.Chrome()
         self.password = password
         self.username = username
     
